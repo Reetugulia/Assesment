@@ -25,8 +25,16 @@ namespace Assesment
             Console.WriteLine("enter  angular marks");
             double m5 = Convert.ToDouble(Console.ReadLine());
 
-            double percentage = ((m1 + m2 + m3 + m4 + m5) * 100) / 500;
+            double total = m1 + m2 + m3 + m4 + m5;
+            double avg = total / 5;
+
+            Console.WriteLine($"total is {total}");
+            Console.WriteLine($"average is {avg} ");
+
+            double percentage = ((total) * 100) / 500;
             Console.WriteLine($"percentage is {percentage}");
+
+            
 
         }
     }

@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Assesment.PercentageGrade</StartupObject>
+    <StartupObject>Assesment.PercentageDemo</StartupObject>
   </PropertyGroup>
 
 </Project>
